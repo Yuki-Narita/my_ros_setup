@@ -5,6 +5,10 @@
 セットアップを自動化したやつ(メインコンテンツ)
 ファイルを実行するとROSのインストール等を自動でやってくれるはず
 
+``
+$ sh ros_setup.sh
+``
+
 ## terminator_config
 terminatorの設定ファイル(自分用)
 1. ファイル名を config にリネーム
