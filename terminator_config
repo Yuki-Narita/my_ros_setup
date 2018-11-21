@@ -1,0 +1,308 @@
+[global_config]
+  broadcast_default = off
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[ros6]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = a5993abf-dae7-4e77-80e1-e367ba5376c6
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 51:24
+      size = 1229, 1000
+      title = rosdesk@rosdesk-OptiPlex-7050: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 687
+      ratio = 0.69
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 611
+      ratio = 0.499593165175
+      type = HPaned
+    [[[child3]]]
+      order = 0
+      parent = child2
+      position = 321
+      ratio = 0.471615720524
+      type = VPaned
+    [[[child6]]]
+      order = 1
+      parent = child2
+      position = 321
+      ratio = 0.471615720524
+      type = VPaned
+    [[[child9]]]
+      order = 1
+      parent = child1
+      position = 611
+      ratio = 0.499593165175
+      type = HPaned
+    [[[terminal10]]]
+      order = 0
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = 432f20bb-de80-4623-954b-c07c7bdf7380
+    [[[terminal11]]]
+      order = 1
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = d9398cb4-072a-474a-a2c6-30a5849c3c1a
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = a5993abf-dae7-4e77-80e1-e367ba5376c6
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = a217c9db-ccba-4afd-bdc5-b5b146f2e710
+    [[[terminal7]]]
+      order = 0
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 6ec964fd-b17e-4b7b-a4b5-b56ec3e4e0bb
+    [[[terminal8]]]
+      order = 1
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 88c01e7a-c16c-43cd-9053-991130d4ebbb
+  [[ros8]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 88c01e7a-c16c-43cd-9053-991130d4ebbb
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 51:24
+      size = 1229, 1000
+      title = rosdesk@rosdesk-OptiPlex-7050: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 497
+      ratio = 0.5
+      type = VPaned
+    [[[child10]]]
+      order = 0
+      parent = child9
+      position = 245
+      ratio = 0.498993963783
+      type = VPaned
+    [[[child13]]]
+      order = 1
+      parent = child9
+      position = 245
+      ratio = 0.498993963783
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 612
+      ratio = 0.500406834825
+      type = HPaned
+    [[[child3]]]
+      order = 0
+      parent = child2
+      position = 245
+      ratio = 0.498993963783
+      type = VPaned
+    [[[child6]]]
+      order = 1
+      parent = child2
+      position = 245
+      ratio = 0.498993963783
+      type = VPaned
+    [[[child9]]]
+      order = 1
+      parent = child1
+      position = 612
+      ratio = 0.500406834825
+      type = HPaned
+    [[[terminal11]]]
+      order = 0
+      parent = child10
+      profile = default
+      type = Terminal
+      uuid = 432f20bb-de80-4623-954b-c07c7bdf7380
+    [[[terminal12]]]
+      order = 1
+      parent = child10
+      profile = default
+      type = Terminal
+      uuid = 031f25bd-08d6-4aea-80a6-0e780f08afb6
+    [[[terminal14]]]
+      order = 0
+      parent = child13
+      profile = default
+      type = Terminal
+      uuid = d9398cb4-072a-474a-a2c6-30a5849c3c1a
+    [[[terminal15]]]
+      order = 1
+      parent = child13
+      profile = default
+      type = Terminal
+      uuid = cb523459-324b-45b9-b07c-1097d949cce7
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = a5993abf-dae7-4e77-80e1-e367ba5376c6
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = a217c9db-ccba-4afd-bdc5-b5b146f2e710
+    [[[terminal7]]]
+      order = 0
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 6ec964fd-b17e-4b7b-a4b5-b56ec3e4e0bb
+    [[[terminal8]]]
+      order = 1
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 88c01e7a-c16c-43cd-9053-991130d4ebbb
+  [[rosmulti]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = a5993abf-dae7-4e77-80e1-e367ba5376c6
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 1280:24
+      size = 1280, 1000
+      title = rosdesk@rosdesk-OptiPlex-7050: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 531
+      ratio = 0.534
+      type = VPaned
+    [[[child10]]]
+      order = 0
+      parent = child9
+      position = 231
+      ratio = 0.505399568035
+      type = VPaned
+    [[[child13]]]
+      order = 1
+      parent = child9
+      position = 231
+      ratio = 0.505399568035
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 646
+      ratio = 0.50703125
+      type = HPaned
+    [[[child3]]]
+      order = 0
+      parent = child2
+      position = 294
+      ratio = 0.559322033898
+      type = VPaned
+    [[[child6]]]
+      order = 1
+      parent = child2
+      position = 294
+      ratio = 0.559322033898
+      type = VPaned
+    [[[child9]]]
+      order = 1
+      parent = child1
+      position = 646
+      ratio = 0.50703125
+      type = HPaned
+    [[[terminal11]]]
+      group = robot2
+      order = 0
+      parent = child10
+      profile = default
+      type = Terminal
+      uuid = 432f20bb-de80-4623-954b-c07c7bdf7380
+    [[[terminal12]]]
+      group = robot2
+      order = 1
+      parent = child10
+      profile = default
+      type = Terminal
+      uuid = 031f25bd-08d6-4aea-80a6-0e780f08afb6
+    [[[terminal14]]]
+      group = robot2
+      order = 0
+      parent = child13
+      profile = default
+      type = Terminal
+      uuid = d9398cb4-072a-474a-a2c6-30a5849c3c1a
+    [[[terminal15]]]
+      group = robot2
+      order = 1
+      parent = child13
+      profile = default
+      type = Terminal
+      uuid = cb523459-324b-45b9-b07c-1097d949cce7
+    [[[terminal4]]]
+      group = robot1
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = a5993abf-dae7-4e77-80e1-e367ba5376c6
+    [[[terminal5]]]
+      group = robot1
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = a217c9db-ccba-4afd-bdc5-b5b146f2e710
+    [[[terminal7]]]
+      group = robot1
+      order = 0
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 6ec964fd-b17e-4b7b-a4b5-b56ec3e4e0bb
+    [[[terminal8]]]
+      group = robot1
+      order = 1
+      parent = child6
+      profile = default
+      type = Terminal
+      uuid = 88c01e7a-c16c-43cd-9053-991130d4ebbb
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+  [[ros]]
+    background_image = None
