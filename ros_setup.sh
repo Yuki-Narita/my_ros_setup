@@ -32,7 +32,7 @@ sudo apt -y install python-rosinstall
 
 sudo apt -y install python-catkin-tools
 mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/ & catkin build
+cd ~/catkin_ws && catkin build
 cd ~
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
@@ -67,7 +67,7 @@ sudo apt -y install vim
 
 cd ~/catkin_ws/src
 git clone https://github.com/Yuki-Narita/multiple_robots_slam.git
-cd ~/catkin_ws & catkin build
+cd ~/catkin_ws && catkin build
 
 ##以下bashrcの設定
 
