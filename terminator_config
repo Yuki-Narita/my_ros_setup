@@ -1,5 +1,7 @@
 [global_config]
   broadcast_default = off
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  suppress_multiple_term_dialog = True
 [keybindings]
 [layouts]
   [[default]]
@@ -10,84 +12,6 @@
     [[[window0]]]
       parent = ""
       type = Window
-  [[ros6]]
-    [[[child0]]]
-      fullscreen = False
-      last_active_term = a5993abf-dae7-4e77-80e1-e367ba5376c6
-      last_active_window = True
-      maximised = True
-      order = 0
-      parent = ""
-      position = 51:24
-      size = 1229, 1000
-      title = rosdesk@rosdesk-OptiPlex-7050: ~
-      type = Window
-    [[[child1]]]
-      order = 0
-      parent = child0
-      position = 687
-      ratio = 0.69
-      type = VPaned
-    [[[child2]]]
-      order = 0
-      parent = child1
-      position = 611
-      ratio = 0.499593165175
-      type = HPaned
-    [[[child3]]]
-      order = 0
-      parent = child2
-      position = 321
-      ratio = 0.471615720524
-      type = VPaned
-    [[[child6]]]
-      order = 1
-      parent = child2
-      position = 321
-      ratio = 0.471615720524
-      type = VPaned
-    [[[child9]]]
-      order = 1
-      parent = child1
-      position = 611
-      ratio = 0.499593165175
-      type = HPaned
-    [[[terminal10]]]
-      order = 0
-      parent = child9
-      profile = default
-      type = Terminal
-      uuid = 432f20bb-de80-4623-954b-c07c7bdf7380
-    [[[terminal11]]]
-      order = 1
-      parent = child9
-      profile = default
-      type = Terminal
-      uuid = d9398cb4-072a-474a-a2c6-30a5849c3c1a
-    [[[terminal4]]]
-      order = 0
-      parent = child3
-      profile = default
-      type = Terminal
-      uuid = a5993abf-dae7-4e77-80e1-e367ba5376c6
-    [[[terminal5]]]
-      order = 1
-      parent = child3
-      profile = default
-      type = Terminal
-      uuid = a217c9db-ccba-4afd-bdc5-b5b146f2e710
-    [[[terminal7]]]
-      order = 0
-      parent = child6
-      profile = default
-      type = Terminal
-      uuid = 6ec964fd-b17e-4b7b-a4b5-b56ec3e4e0bb
-    [[[terminal8]]]
-      order = 1
-      parent = child6
-      profile = default
-      type = Terminal
-      uuid = 88c01e7a-c16c-43cd-9053-991130d4ebbb
   [[ros8]]
     [[[child0]]]
       fullscreen = False
@@ -304,5 +228,7 @@
 [profiles]
   [[default]]
     background_image = None
+    scroll_on_output = False
+    scrollback_infinite = True
   [[ros]]
     background_image = None
