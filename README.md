@@ -17,6 +17,8 @@ terminatorの設定ファイル(自分用)
 1. ファイル名を config にリネーム
 2. ~/.config/terminator/ に配置
 -->
+## git_config
+.gitconfig
 
 ## インストールコマンド
 ``
