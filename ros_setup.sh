@@ -87,15 +87,31 @@ sudo apt -y install ros-kinetic-rtabmap-ros
 ##########################
 # その他ツールのインストール #
 ##########################
+sudo apt install -y vim terminator openssh-server
 
-sudo apt install -y vim terminator
+# terminator設定
 mkdir -p ~/.config/terminator
 curl https://raw.githubusercontent.com/Yuki-Narita/my_ros_setup/master/terminator_config > ~/.config/terminator/config
 
+# git
+curl https://raw.githubusercontent.com/Yuki-Narita/my_ros_setup/master/git_config > ~/.gitconfig
 
 #######################
 # multiSLAM関連の設定 #
 #######################
+cd ~/catkin_ws/src
+git clone https://github.com/hidakalab-robot/multiple_robots_slam.git
+catkin build
+
 #sudo sh -c "echo 0 >/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts"
 #echo 'net.ipv4.icmp_echo_ignore_broadcasts=0' | sudo tee -a /etc/sysctl.conf > /dev/null
 #sudo service procps restart
+
+##########
+# 後片付け #
+##########
+
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
