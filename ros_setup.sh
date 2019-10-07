@@ -8,9 +8,9 @@
 # システムのアップデート #
 #######################
 
-sudo apt update
-sudo apt upgrade
-sudo apt dist-upgrade
+sudo apt -y update
+sudo apt -y upgrade
+sudo apt -y dist-upgrade
 
 ########################
 # home 以下を英語に変更 #
@@ -87,6 +87,9 @@ sudo apt -y install ros-kinetic-rtabmap-ros
 ##########################
 # その他ツールのインストール #
 ##########################
+sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
+sudo apt -y update
+sudo apt -y install simplescreenrecorder
 sudo apt install -y vim terminator openssh-server
 
 # terminator設定
@@ -111,7 +114,10 @@ catkin build
 # 後片付け #
 ##########
 
-sudo apt update
-sudo apt upgrade
-sudo apt dist-upgrade
-sudo apt autoremove
+sudo apt -y update
+sudo apt -y upgrade
+sudo apt -y dist-upgrade
+sudo apt -y autoremove
+
+echo スクリプトが終了しました
+echo あとはVScodeとchromeの最新版をインストールしてください
