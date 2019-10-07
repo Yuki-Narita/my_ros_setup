@@ -22,5 +22,5 @@ terminatorの設定ファイル(自分用)
 
 ## インストールコマンド
 ``
-$ curl -sLf https://raw.githubusercontent.com/Yuki-Narita/my_ros_setup/master/ros_setup.sh | bash
+$ bash <(curl -sL https://raw.githubusercontent.com/Yuki-Narita/my_ros_setup/master/ros_setup.sh)
 ``
