@@ -1,5 +1,6 @@
 # my_ros_setup
 kinetic用
+ubuntu16.04をインストールした直後のセットアップ用
 
 ## ros_setup.sh
 セットアップを自動化したやつ
