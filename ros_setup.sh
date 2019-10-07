@@ -35,9 +35,9 @@ echo "$password" | sudo -S timedatectl set-local-rtc true
 
 # ターミナルにgitのブランチ表示
 echo "if [ -f /etc/bash_completion.d/git-prompt ]; then" >> ~/.bashrc
-echo "    export PS1='\[\033[01;32m\]\u@\h\[\033[01;33m\] \w$(__git_ps1) \n\[\033[01;34m\]\$\[\033[00m\] '" >> ~/.bashrc
+echo "    export PS1='\[\033[01;32m\]\u@\h\[\033[01;33m\] \w\$(__git_ps1) \n\[\033[01;34m\]\\$\[\033[00m\] '" >> ~/.bashrc
 echo "else" >> ~/.bashrc
-echo "    export PS1='\[\033[01;32m\]\u@\h\[\033[01;33m\] \w \n\[\033[01;34m\]\$\[\033[00m\] '" >> ~/.bashrc
+echo "    export PS1='\[\033[01;32m\]\u@\h\[\033[01;33m\] \w \n\[\033[01;34m\]\\$\[\033[00m\] '" >> ~/.bashrc
 echo "fi" >> ~/.bashrc
 
 # エイリアス
