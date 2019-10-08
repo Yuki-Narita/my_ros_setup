@@ -21,8 +21,8 @@ terminatorの設定ファイル(自分用)
 .gitconfig
 
 ## インストールコマンド
-``
+```
 $ sudo apt install curl
 
 $ bash <(curl -sL https://raw.githubusercontent.com/Yuki-Narita/my_ros_setup/master/ros_setup.sh)
-``
+```
