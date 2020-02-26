@@ -84,7 +84,7 @@ echo $password | sudo -S apt -y install ros-kinetic-turtlebot ros-kinetic-turtle
 rosrun kobuki_ftdi create_udev_rules
 echo "export TURTLEBOT_3D_SENSOR=kinect" >> ~/.bashrc
 source ~/.bashrc
-echo $password | sudo -S apt -y install ros-kinetic-rtabmap-ros
+#echo $password | sudo -S apt -y install ros-kinetic-rtabmap-ros
 
 ##########################
 # その他ツールのインストール #
@@ -99,14 +99,14 @@ mkdir -p ~/.config/terminator
 curl https://raw.githubusercontent.com/Yuki-Narita/my_ros_setup/master/terminator_config > ~/.config/terminator/config
 
 # git
-curl https://raw.githubusercontent.com/Yuki-Narita/my_ros_setup/master/git_config > ~/.gitconfig
+#curl https://raw.githubusercontent.com/Yuki-Narita/my_ros_setup/master/git_config > ~/.gitconfig
 
 #######################
 # multiSLAM関連の設定 #
 #######################
-cd ~/catkin_ws/src
-git clone https://github.com/hidakalab-robot/multiple_robots_slam.git
-catkin build
+#cd ~/catkin_ws/src
+#git clone https://github.com/hidakalab-robot/multiple_robots_slam.git
+#catkin build
 
 #sudo sh -c "echo 0 >/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts"
 #echo 'net.ipv4.icmp_echo_ignore_broadcasts=0' | sudo tee -a /etc/sysctl.conf > /dev/null
@@ -122,4 +122,4 @@ echo $password | sudo -S apt -y dist-upgrade
 echo $password | sudo -S apt -y autoremove
 
 echo スクリプトが終了しました
-echo あとはVScodeとchromeの最新版をインストールしてください
+#echo あとはVScodeとchromeの最新版をインストールしてください
